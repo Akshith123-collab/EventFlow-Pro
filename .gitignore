@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+target/
+*.class
+
+# Runtime/generated files
+uploads/
+*.log
+*.zip
+*.rar
+*.7z
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+
+# Nested Git metadata backup preserved during root repo setup
+.git-backup-before-root-upload/
+**/.git-backup-before-root-upload/
+
+# IDE and OS files
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+Thumbs.db
+.DS_Store
+
